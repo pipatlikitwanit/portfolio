@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipat Likitwanit - Portfolio</title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Mobile Toggle Button -->
+    <button class="mobile-toggle" id="menuToggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- Left Sidebar Navigation -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <a href="#home" class="logo">Pipat<span>.</span></a>
+            <div class="profile-thumb">
+                <img src="mypic.jpg" alt="Pipat Likitwanit">
+            </div>
+            <h3 class="profile-name">Pipat Likitwanit</h3>
+            <p class="profile-title">Computer Science</p>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="#home" class="nav-link active">
+                <i class="fa-solid fa-house"></i> <span>Home</span>
+            </a>
+            <a href="#about" class="nav-link">
+                <i class="fa-solid fa-user"></i> <span>About</span>
+            </a>
+            <a href="#project" class="nav-link">
+                <i class="fa-solid fa-code"></i> <span>Projects</span>
+            </a>
+            <a href="#certificate" class="nav-link">
+                <i class="fa-solid fa-award"></i> <span>Certificates</span>
+            </a>
+            <a href="#contact" class="nav-link">
+                <i class="fa-solid fa-envelope"></i> <span>Contact</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="social-icons">
+                <a href="https://facebook.com/พิพัฒน์ ลิขิตวานิช" target="_blank" rel="noopener" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://instagram.com/b_likitwanit" target="_blank" rel="noopener" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://line.me/ti/p/bosskubbbbbb" target="_blank" rel="noopener" title="LINE"><i class="fa-brands fa-line"></i></a>
+                <a href="mailto:bboss1212312121@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Pipat L.</p>
+        </div>
+    </aside>
+
+    <!-- Overlay for Mobile Menu -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="home-content reveal-left">
+                <div class="badge-status">
+                    <span class="status-dot"></span> Available for Opportunities
+                </div>
+                <h1>Hi, I'm <span class="gradient-text">Pipat Likitwanit</span></h1>
+                <h2>I am a <span class="typing-text gradient-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p>
+                    นักศึกษาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยกรุงเทพ ที่หลงใหลในการพัฒนา <strong>Mobile Application</strong> และ <strong>Web Development</strong> มุ่งมั่นสร้างสรรค์ซอฟต์แวร์ที่ตอบโจทย์และใช้งานง่าย
+                </p>
+
+                <div class="btn-group">
+                    <a href="#about" class="btn btn-primary">About Me <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+
+            <div class="home-img reveal-right">
+                <div class="img-wrapper">
+                    <img src="mypic.jpg" alt="Pipat Likitwanit">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2 class="heading reveal">About <span class="gradient-text">Me</span></h2>
+
+            <div class="about-container">
+                <div class="about-img reveal-left">
+                    <img src="mypic.jpg" alt="Pipat Likitwanit">
+                </div>
+
+                <div class="about-content reveal-right">
+                    <h3>พิพัฒน์ ลิขิตวานิช (อายุ 22 ปี)</h3>
+                    <p>
+                        กำลังศึกษาชั้นปีที่ 4 สาขาวิชาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยกรุงเทพ มีความตั้งใจและมุ่งมั่นในการเรียนรู้สิ่งใหม่ๆ อยู่เสมอ โดยเฉพาะการเขียนโปรแกรมและการพัฒนาแอปพลิเคชัน พร้อมนำทักษะไปต่อยอดในสายงานจริง
+                    </p>
+
+                    <h4 class="sub-title">Tech Stack & Tools</h4>
+                    <div class="tech-stack">
+                        <div class="tech-card"><i class="fa-brands fa-python"></i> Python</div>
+                        <div class="tech-card"><i class="fa-brands fa-html5"></i> HTML5</div>
+                        <div class="tech-card"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                        <div class="tech-card"><i class="fa-brands fa-js"></i> JavaScript</div>
+                        <div class="tech-card"><i class="fa-solid fa-code"></i> Dart</div>
+                        <div class="tech-card"><i class="fa-solid fa-mobile-screen-button"></i> Flutter</div>
+                        <div class="tech-card"><i class="fa-brands fa-github"></i> Git / GitHub</div>
+                    </div>
+
+                    <div class="about-boxes">
+                        <div class="about-box">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h4>Education</h4>
+                            <p>Bangkok University<br>Computer Science</p>
+                        </div>
+
+                        <div class="about-box highlight">
+                            <i class="fa-solid fa-award"></i>
+                            <h4>GPA</h4>
+                            <p class="gpa-num">3.32</p>
+                            <span class="small-text">(Unofficial)</span>
+                        </div>
+
+                        <div class="about-box">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h4>Interests</h4>
+                            <p>Mobile App &<br>Web Development</p>
+                        </div>
+
+                        <div class="about-box">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <h4>Goal</h4>
+                            <p>Mobile &<br>Frontend Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Section -->
+        <section class="project" id="project">
+            <h2 class="heading reveal">Featured <span class="gradient-text">Projects</span></h2>
+
+            <div class="project-container">
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="project1.jpg" alt="E-Commerce Project">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <h3>E-Commerce Website</h3>
+                        <p>ระบบร้านค้าออนไลน์รองรับตะกร้าสินค้า ชำระเงิน และแสดงผลแบบ Responsive ตอบโจทย์การใช้งานทุกอุปกรณ์</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+                            <a href="#" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="project2.jpg" alt="UI/UX Mobile App Project">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <h3>Health Tracker Mobile App</h3>
+                        <p>แอปพลิเคชันสำหรับบันทึกสุขภาพและการออกกำลังกาย เน้น UI ที่สะอาดและ UX ที่ใช้งานง่ายสำหรับทุกวัย</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+                            <a href="#" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Preview</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-img">
+                        <img src="project3.jpg" alt="Portfolio Web App">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <h3>Personal Portfolio</h3>
+                        <p>เว็บไซต์รวบรวมผลงานส่วนตัว ดีไซน์สไตล์ Modern Dark พร้อมแอนิเมชัน และการ์ดติดต่อแนวดิ่ง</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+                            <a href="#" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificate Section -->
+        <section class="certificate" id="certificate">
+            <h2 class="heading reveal">My <span class="gradient-text">Certificates</span></h2>
+
+            <div class="certificate-card reveal">
+                    <div class="cert-img">
+                        <!-- ใส่ชื่อไฟล์รูปภาพที่คุณแคปหน้าจอมา -->
+                        <img src="cer1.JPG" alt="Software Development with ChatGPT Certificate" class="zoomable">
+                    </div>
+                    <div class="cert-content">
+                        <!-- ชื่อคอร์สจากใบ Cer -->
+                        <h3>Software Development with ChatGPT: Generating Code with AI</h3>
+                        
+                        <!-- ผู้จัดทำ -->
+                        <p class="issuer"><i class="fa-solid fa-award"></i> Coursera</p>
+                        
+                        <!-- วันที่ออกใบ Cer -->
+                        <p class="cert-date"><i class="fa-regular fa-calendar-days"></i> Mar 8, 2025</p>
+                        
+                        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+                            <!-- ปุ่มดูไฟล์ PDF ที่คุณมี -->
+                            
+                            
+                            <!-- ปุ่มลิงก์สำหรับตรวจสอบความถูกต้อง (Verify) -->
+                            <a href="https://coursera.org/verify/SRUCJIO790EE" target="_blank" rel="noopener" class="cert-link">
+                                Verify Link <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card reveal">
+                    <div class="cert-img">
+                        <img src="cert2.jpg" alt="Certificate 2">
+                    </div>
+                    <div class="cert-content">
+                        <h3>Mobile App Development with Flutter</h3>
+                        <p class="issuer"><i class="fa-solid fa-award"></i> Professional Certificate</p>
+                        <p class="cert-date"><i class="fa-regular fa-calendar-days"></i> 2024</p>
+                        <a href="cert2.jpg" target="_blank" rel="noopener" class="cert-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="certificate-card reveal">
+                    <div class="cert-img">
+                        <img src="cert3.jpg" alt="Certificate 3">
+                    </div>
+                    <div class="cert-content">
+                        <h3>Python & Programming Essentials</h3>
+                        <p class="issuer"><i class="fa-solid fa-award"></i> Bangkok University</p>
+                        <p class="cert-date"><i class="fa-regular fa-calendar-days"></i> 2023</p>
+                        <a href="cert3.jpg" target="_blank" rel="noopener" class="cert-link">View Certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2 class="heading reveal">Contact <span class="gradient-text">Me</span></h2>
+
+            <div class="contact-container reveal">
+                <div class="contact-info">
+                    <h3>Let's Connect & Work Together!</h3>
+                    <p>สามารถติดต่อสอบถาม หรือพูดคุยเกี่ยวกับโอกาสในการทำงานผ่านช่องทางด้านล่างได้เลยครับ</p>
+
+                    <div class="info-box">
+                        <a href="tel:0800000000" class="info-item">
+                            <div class="icon-wrap"><i class="fa-solid fa-phone"></i></div>
+                            <div class="info-text">
+                                <h4>Phone</h4>
+                                <p>0948187770</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                        </a>
+
+                        <a href="mailto:bboss1212312121@gmail.com" class="info-item">
+                            <div class="icon-wrap"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="info-text">
+                                <h4>Gmail</h4>
+                                <p>bboss1212312121@gmail.com</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                        </a>
+
+                        <a href="https://line.me/ti/p/bosskubbbbbb" target="_blank" rel="noopener" class="info-item">
+                            <div class="icon-wrap"><i class="fa-brands fa-line"></i></div>
+                            <div class="info-text">
+                                <h4>LINE</h4>
+                                <p>bosskubbbbbb</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                        </a>
+
+                        <a href="https://facebook.com/พิพัฒน์ ลิขิตวานิช" target="_blank" rel="noopener" class="info-item">
+                            <div class="icon-wrap"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="info-text">
+                                <h4>Facebook</h4>
+                                <p>พิพัฒน์ ลิขิตวานิช</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                        </a>
+
+                        <a href="https://instagram.com/b_likitwanit" target="_blank" rel="noopener" class="info-item">
+                            <div class="icon-wrap"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="info-text">
+                                <h4>Instagram</h4>
+                                <p>@b_likitwanit</p>
+                            </div>
+                            <i class="fa-solid fa-chevron-right arrow-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2026 Pipat Likitwanit. All Rights Reserved.</p>
+        </footer>
+    </main>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTopBtn" title="Go to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- 🟢 วางโค้ด Modal ตรงนี้ครับ -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="fullImage">
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
